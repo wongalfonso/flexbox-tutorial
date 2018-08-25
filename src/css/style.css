@@ -104,6 +104,18 @@
   border: none;
   font-size: 1.1em;
 }
-.register-btn:hover {
+.register-btn:hover, .register-btn:focus {
   background: #C17CCF;
+}
+.form-skills, .form-workshop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-skills li {
+  width: 145px;
+}
+.form-workshop li {
+  flex: 1 0 200px;
 }
