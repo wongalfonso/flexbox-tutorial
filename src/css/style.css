@@ -13,6 +13,8 @@
   padding: 0;
 }
 .register-form {
+  /* width: 100vw;
+  overflow: hidden; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -28,7 +30,8 @@
 }
 
 .form-submit {
-  flex: 0 0 100%;
+  margin: 0 0 2em;
+  /* flex: 0 0 100%; */
 }
 
 .form-fields input[type='text'],
@@ -118,4 +121,17 @@
 }
 .form-workshop li {
   flex: 1 0 200px;
+}
+
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 2em;
+  }
+  header, .form-submit {
+    padding: 2% 5%;
+  }
+
 }
